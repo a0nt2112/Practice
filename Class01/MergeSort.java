@@ -49,5 +49,11 @@ public class MergeSort {
         int[] array = new int[]{2,4,5,1};
         array = solution.mergeSort(array);
         System.out.println(Arrays.toString(array));
+
+        int[] array2 = new int[]{3,4,5,1};
+        array2 = solution.mergeSort(array2);
+        System.out.println(Arrays.toString(array2));
+
+
     }
 }
